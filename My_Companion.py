@@ -3,7 +3,16 @@ import streamlit as st
 from streamlit_chat import message
 import uuid
 import modal
-modal.config.api_token = st.secrets["modal_api"]
+
+os.environ["MODAL_TOKEN_ID"] = st.secrets["MODAL_TOKEN_ID"]
+os.environ["MODAL_TOKEN_SECRET"] = st.secrets["MODAL_TOKEN_SECRET"]
+
+# Verify authentication by creating a simple Modal client
+try:
+    with modal.Client() as client:
+        print("Authentication successful!")
+except Exception as e:
+    print(f"Authentication failed: {e}")
 
 
 Companion = modal.Cls.lookup("new-ai-companion_llama_3_1", "Companion")
