@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_chat import message
 import uuid
 import modal
-modal.config.api_token = "ak-F73VuQI8lqdwMHgtiyCFss"
+modal.config.api_token = st.secrets["modal_api"]
 
 
 Companion = modal.Cls.lookup("new-ai-companion_llama_3_1", "Companion")
