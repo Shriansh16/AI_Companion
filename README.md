@@ -3,7 +3,7 @@ Deployed link: https://aicompanion16.streamlit.app/
 
 
 # AI Companion
-Deployed link: https://domainbasedchatbot.streamlit.app/                                                             
+Deployed link: https://aicompanion16.streamlit.app/                                                            
 (Note: It will take some time for the first query.)
 
 ## Steps Followed  
