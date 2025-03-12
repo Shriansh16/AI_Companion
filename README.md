@@ -4,7 +4,8 @@ Deployed link: https://aicompanion16.streamlit.app/
 
 # AI Companion
 Deployed link: https://aicompanion16.streamlit.app/                                                            
-(Note: It will take some time for the first query.)
+(Note: It will take some time for the first query.)                                                                                                                                    
+An AI-powered companion designed to engage users in context-aware, personalized conversations, offering meaningful interactions and companionship. It adapts to user inputs for a more natural and engaging experience.
 
 ## Steps Followed  
 
